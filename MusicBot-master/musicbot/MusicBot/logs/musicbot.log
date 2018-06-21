@@ -1,0 +1,114 @@
+[83.001613617] 2018-06-21 18:10:52,897 - INFO - launcher: Starting sanity checks
+[84.000110626] 2018-06-21 18:10:52,898 - INFO - launcher: Checking for Python 3.5+
+[84.000110626] 2018-06-21 18:10:52,898 - INFO - launcher: Checking console encoding
+[85.249900818] 2018-06-21 18:10:52,900 - INFO - launcher: Setting console encoding to UTF-8
+[85.249900818] 2018-06-21 18:10:52,900 - INFO - launcher: Ensuring we're in the right environment
+[89.000463486] 2018-06-21 18:10:52,903 - INFO - launcher: Adding local bins/ folder to path
+[91.002702713] 2018-06-21 18:10:52,905 - INFO - launcher: Required checks passed.
+[92.999458313] 2018-06-21 18:10:52,907 - INFO - launcher: Optional checks passed.
+[93.999385834] 2018-06-21 18:10:52,908 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.0434772968292236] 2018-06-21 18:10:55,858 - WARNING - musicbot.config | In config.py::MainThread(15100), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[3.0444769859313965] 2018-06-21 18:10:55,859 - INFO - musicbot.config | In config.py::MainThread(15100), line 123 in run_checks: Using i18n: config/i18n/en.json
+[3.0484762191772461] 2018-06-21 18:10:55,863 - WARNING - musicbot.config | In config.py::MainThread(15100), line 293 in find_autoplaylist: No autoplaylist file found.
+[3.0514767169952393] 2018-06-21 18:10:55,866 - DEBUG - musicbot.json | In json.py::MainThread(15100), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.5774729251861572] 2018-06-21 18:10:56,392 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 227 in _setup_logging: Set logging level to INFO
+[3.5774729251861572] 2018-06-21 18:10:56,392 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 84 in __init__: Starting MusicBot 1.9.7
+[3.5784697532653809] 2018-06-21 18:10:56,393 - WARNING - musicbot.bot | In bot.py::MainThread(15100), line 87 in __init__: Autoplaylist is empty, disabling.
+[6.9545056819915771] 2018-06-21 18:10:59,769 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 1074 in on_ready: Connection established, ready to go.
+[6.9552495479583740] 2018-06-21 18:10:59,770 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 339 in _cache_app_info: Caching app info
+[7.1945056915283203] 2018-06-21 18:11:00,009 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[7.1965045928955078] 2018-06-21 18:11:00,011 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 905 in _scheck_server_permissions: Checking server permissions
+[7.1975054740905762] 2018-06-21 18:11:00,012 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[7.1975054740905762] 2018-06-21 18:11:00,012 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 913 in _scheck_configs: Validating config
+[7.1975054740905762] 2018-06-21 18:11:00,012 - DEBUG - musicbot.config | In config.py::MainThread(15100), line 212 in async_validate: Validating options...
+[7.1975054740905762] 2018-06-21 18:11:00,012 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 916 in _scheck_configs: Validating permissions config
+[7.1975054740905762] 2018-06-21 18:11:00,012 - DEBUG - musicbot.permissions | In permissions.py::MainThread(15100), line 64 in async_validate: Validating permissions...
+[7.1975054740905762] 2018-06-21 18:11:00,012 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 1091 in on_ready: Connected: 459265611353030676/PomBot#6795
+[7.1985039710998535] 2018-06-21 18:11:00,013 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 1099 in on_ready: Owner:     373754639067250709/Nutty Ninja#6053
+
+[7.1995043754577637] 2018-06-21 18:11:00,014 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 1102 in on_ready: Server List:
+[7.2005033493041992] 2018-06-21 18:11:00,015 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 1105 in on_ready:  - Depression and Memes 2.0
+[7.2005033493041992] 2018-06-21 18:11:00,015 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 1151 in on_ready: Not bound to any text channels
+[7.2015044689178467] 2018-06-21 18:11:00,016 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 1177 in on_ready: Not autojoining any voice channels
+[7.2015044689178467] 2018-06-21 18:11:00,016 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 266 in _join_startup_channels: Found resumable voice channel Depression and Memes 2.0/spook
+[7.2025036811828613] 2018-06-21 18:11:00,017 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 272 in _join_startup_channels: Found owner in "General"
+[7.2025036811828613] 2018-06-21 18:11:00,017 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 281 in _join_startup_channels: Attempting to join Depression and Memes 2.0/General
+[7.2035050392150879] 2018-06-21 18:11:00,018 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 452 in get_voice_client: Connection attempt 1 to General
+[7.2035050392150879] 2018-06-21 18:11:00,018 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[7.2055101394653320] 2018-06-21 18:11:00,020 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[7.2055101394653320] 2018-06-21 18:11:00,020 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[7.4585011005401611] 2018-06-21 18:11:00,273 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 459265611353030676/PomBot#6795 on Depression and Memes 2.0/General -> [JOIN, MOVE]
+[7.4595019817352295] 2018-06-21 18:11:00,274 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 459265611353030676/PomBot#6795 has joined Depression and Memes 2.0/General
+[7.4605031013488770] 2018-06-21 18:11:00,275 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[7.6544969081878662] 2018-06-21 18:11:00,469 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[7.8881208896636963] 2018-06-21 18:11:00,702 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[7.8891220092773438] 2018-06-21 18:11:00,703 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 478 in get_voice_client: Connected in 0.7s
+[7.8891220092773438] 2018-06-21 18:11:00,703 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 479 in get_voice_client: Connected to Depression and Memes 2.0/General
+[7.8901216983795166] 2018-06-21 18:11:00,704 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 849 in deserialize_queue: Deserializing queue for 456694044169338880
+[8.2601306438446045] 2018-06-21 18:11:01,074 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 570 in get_player: Created player via deserialization for server 456694044169338880 with 0 entries
+[8.2611157894134521] 2018-06-21 18:11:01,075 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 297 in _join_startup_channels: Joined Depression and Memes 2.0/General
+[8.2621178627014160] 2018-06-21 18:11:01,076 - VOICEDEBUG - musicbot.player | In player.py::MainThread(15100), line 373 in websocket_check: Starting websocket check loop for Depression and Memes 2.0
+[9.5560996532440186] 2018-06-21 18:11:02,370 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 210331784599044097/Soup Ladle#8939 on Depression and Memes 2.0/General -> [JOIN, MOVE]
+[9.5570993423461914] 2018-06-21 18:11:02,371 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 210331784599044097/Soup Ladle#8939 has joined Depression and Memes 2.0/General
+[13.3420510292053223] 2018-06-21 18:11:06,156 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 459265611353030676/PomBot#6795 on Depression and Memes 2.0/spook -> [JOIN, MOVE]
+[13.3430497646331787] 2018-06-21 18:11:06,157 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 459265611353030676/PomBot#6795 has joined Depression and Memes 2.0/spook
+[18.2624990940093994] 2018-06-21 18:11:11,077 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 210331784599044097/Soup Ladle#8939 on Depression and Memes 2.0/spook -> [JOIN, MOVE]
+[18.2624990940093994] 2018-06-21 18:11:11,077 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 210331784599044097/Soup Ladle#8939 has joined Depression and Memes 2.0/spook
+[21.1261858940124512] 2018-06-21 18:11:13,940 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 210331784599044097/Soup Ladle#8939 on Depression and Memes 2.0/General -> [LEAVE, MOVE]
+[21.1261858940124512] 2018-06-21 18:11:13,940 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 210331784599044097/Soup Ladle#8939 has left Depression and Memes 2.0/spook
+[29.4390799999237061] 2018-06-21 18:11:22,253 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2734 in on_message: 373754639067250709/Nutty Ninja#6053: !play for the sake of allah
+[30.6540648937225342] 2018-06-21 18:11:23,468 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:for the sake of allah', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'for the sake of allah', 'webpage_url_basename': 'for the sake of allah', 'extractor_key': 'Generic'}
+[34.5890128612518311] 2018-06-21 18:11:27,403 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 210331784599044097/Soup Ladle#8939 on Depression and Memes 2.0/spook -> [JOIN, MOVE]
+[34.5900120735168457] 2018-06-21 18:11:27,404 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 210331784599044097/Soup Ladle#8939 has joined Depression and Memes 2.0/spook
+[37.2209784984588623] 2018-06-21 18:11:30,035 - DEBUG - musicbot.entry | In entry.py::MainThread(15100), line 54 in get_ready_future: Created future for None
+[37.2229852676391602] 2018-06-21 18:11:30,037 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[37.2269780635833740] 2018-06-21 18:11:30,041 - INFO - musicbot.entry | In entry.py::MainThread(15100), line 196 in _download: Download cached: https://www.youtube.com/watch?v=A6sniKKTe4E
+[39.2144608497619629] 2018-06-21 18:11:32,029 - DEBUG - musicbot.entry | In entry.py::MainThread(15100), line 54 in get_ready_future: Created future for audio_cache\youtube-A6sniKKTe4E-For_the_sake_of_allah.webm
+[39.2144608497619629] 2018-06-21 18:11:32,029 - FFMPEG - musicbot.player | In player.py::MainThread(15100), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-A6sniKKTe4E-For_the_sake_of_allah.webm
+[39.2294619083404541] 2018-06-21 18:11:32,044 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[39.2974600791931152] 2018-06-21 18:11:32,112 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[46.4082708358764648] 2018-06-21 18:11:39,223 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 210331784599044097/Soup Ladle#8939 on Depression and Memes 2.0/General -> [LEAVE, MOVE]
+[46.4092705249786377] 2018-06-21 18:11:39,224 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 210331784599044097/Soup Ladle#8939 has left Depression and Memes 2.0/spook
+[58.3392736911773682] 2018-06-21 18:11:51,154 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2734 in on_message: 373754639067250709/Nutty Ninja#6053: !clear 10
+[99.3714401721954346] 2018-06-21 18:12:32,186 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2734 in on_message: 373754639067250709/Nutty Ninja#6053: !play for the sake of allah
+[99.6254367828369141] 2018-06-21 18:12:32,440 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:for the sake of allah', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'for the sake of allah', 'webpage_url_basename': 'for the sake of allah', 'extractor_key': 'Generic'}
+[105.3582849502563477] 2018-06-21 18:12:38,173 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 210331784599044097/Soup Ladle#8939 on Depression and Memes 2.0/spook -> [JOIN, MOVE]
+[105.3582849502563477] 2018-06-21 18:12:38,173 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 210331784599044097/Soup Ladle#8939 has joined Depression and Memes 2.0/spook
+[105.8032770156860352] 2018-06-21 18:12:38,618 - DEBUG - musicbot.entry | In entry.py::MainThread(15100), line 54 in get_ready_future: Created future for None
+[105.8052778244018555] 2018-06-21 18:12:38,620 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[105.8082790374755859] 2018-06-21 18:12:38,623 - INFO - musicbot.entry | In entry.py::MainThread(15100), line 196 in _download: Download cached: https://www.youtube.com/watch?v=A6sniKKTe4E
+[107.0143725872039795] 2018-06-21 18:12:39,829 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 373754639067250709/Nutty Ninja#6053 on Depression and Memes 2.0/spook -> [JOIN, MOVE]
+[107.0153737068176270] 2018-06-21 18:12:39,830 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 373754639067250709/Nutty Ninja#6053 has joined Depression and Memes 2.0/spook
+[107.8025605678558350] 2018-06-21 18:12:40,617 - DEBUG - musicbot.entry | In entry.py::MainThread(15100), line 54 in get_ready_future: Created future for audio_cache\youtube-A6sniKKTe4E-For_the_sake_of_allah.webm
+[107.8025605678558350] 2018-06-21 18:12:40,617 - FFMPEG - musicbot.player | In player.py::MainThread(15100), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-A6sniKKTe4E-For_the_sake_of_allah.webm
+[107.8095550537109375] 2018-06-21 18:12:40,624 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[109.7975311279296875] 2018-06-21 18:12:42,612 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 373754639067250709/Nutty Ninja#6053 on Depression and Memes 2.0/General -> [LEAVE, MOVE]
+[109.7975311279296875] 2018-06-21 18:12:42,612 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 373754639067250709/Nutty Ninja#6053 has left Depression and Memes 2.0/spook
+[111.9615168571472168] 2018-06-21 18:12:44,776 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 210331784599044097/Soup Ladle#8939 on Depression and Memes 2.0/General -> [LEAVE, MOVE]
+[111.9625153541564941] 2018-06-21 18:12:44,777 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 210331784599044097/Soup Ladle#8939 has left Depression and Memes 2.0/spook
+[117.8213605880737305] 2018-06-21 18:12:50,636 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 210331784599044097/Soup Ladle#8939 on Depression and Memes 2.0/spook -> [JOIN, MOVE]
+[117.8223617076873779] 2018-06-21 18:12:50,637 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 210331784599044097/Soup Ladle#8939 has joined Depression and Memes 2.0/spook
+[119.0073471069335938] 2018-06-21 18:12:51,822 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 210331784599044097/Soup Ladle#8939 on Depression and Memes 2.0/General -> [LEAVE, MOVE]
+[119.0083458423614502] 2018-06-21 18:12:51,823 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 210331784599044097/Soup Ladle#8939 has left Depression and Memes 2.0/spook
+[120.9763426780700684] 2018-06-21 18:12:53,791 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 373754639067250709/Nutty Ninja#6053 on Depression and Memes 2.0/spook -> [JOIN, MOVE]
+[120.9763426780700684] 2018-06-21 18:12:53,791 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 373754639067250709/Nutty Ninja#6053 has joined Depression and Memes 2.0/spook
+[125.3873968124389648] 2018-06-21 18:12:58,202 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 373754639067250709/Nutty Ninja#6053 on Depression and Memes 2.0/General -> [LEAVE, MOVE]
+[125.3873968124389648] 2018-06-21 18:12:58,202 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 373754639067250709/Nutty Ninja#6053 has left Depression and Memes 2.0/spook
+[288.7911055088043213] 2018-06-21 18:15:41,605 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[453.8032178878784180] 2018-06-21 18:18:26,618 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 459265611353030676/PomBot#6795 on Depression and Memes 2.0/General -> [JOIN, MOVE]
+[453.8042171001434326] 2018-06-21 18:18:26,619 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 459265611353030676/PomBot#6795 has joined Depression and Memes 2.0/General
+[510.7624411582946777] 2018-06-21 18:19:23,577 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2734 in on_message: 373754639067250709/Nutty Ninja#6053: !play pants in my pants
+[511.0644371509552002] 2018-06-21 18:19:23,879 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:pants in my pants', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'pants in my pants', 'webpage_url_basename': 'pants in my pants', 'extractor_key': 'Generic'}
+[523.3453445434570312] 2018-06-21 18:19:36,160 - DEBUG - musicbot.entry | In entry.py::MainThread(15100), line 54 in get_ready_future: Created future for None
+[523.3473458290100098] 2018-06-21 18:19:36,162 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[523.3493514060974121] 2018-06-21 18:19:36,164 - INFO - musicbot.entry | In entry.py::MainThread(15100), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=f4T8ilYnhp0
+[525.3354210853576660] 2018-06-21 18:19:38,150 - DEBUG - musicbot.entry | In entry.py::MainThread(15100), line 54 in get_ready_future: Created future for None
+[532.1712901592254639] 2018-06-21 18:19:44,986 - INFO - musicbot.entry | In entry.py::MainThread(15100), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=f4T8ilYnhp0
+[532.1772902011871338] 2018-06-21 18:19:44,992 - FFMPEG - musicbot.player | In player.py::MainThread(15100), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-f4T8ilYnhp0-XXXTENTACION_-_Can_t_keep_my_pants_in_my_pants.m4a
+[532.1872897148132324] 2018-06-21 18:19:45,002 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[592.2890934944152832] 2018-06-21 18:20:45,103 - DEBUG - musicbot.bot | In bot.py::MainThread(15100), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[720.1063938140869141] 2018-06-21 18:22:52,921 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(15100), line 2938 in on_voice_state_update: Voice state update for 429226963127762944/Jordan#6039 on Depression and Memes 2.0/General -> [JOIN, MOVE]
+[720.1073937416076660] 2018-06-21 18:22:52,922 - INFO - musicbot.bot | In bot.py::MainThread(15100), line 2949 in on_voice_state_update: 429226963127762944/Jordan#6039 has joined Depression and Memes 2.0/General

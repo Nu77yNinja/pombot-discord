@@ -1,0 +1,71 @@
+[75.999736786] 2018-06-21 18:02:54,079 - INFO - launcher: Starting sanity checks
+[76.998710632] 2018-06-21 18:02:54,080 - INFO - launcher: Checking for Python 3.5+
+[76.998710632] 2018-06-21 18:02:54,080 - INFO - launcher: Checking console encoding
+[76.998710632] 2018-06-21 18:02:54,080 - INFO - launcher: Setting console encoding to UTF-8
+[78.000545502] 2018-06-21 18:02:54,081 - INFO - launcher: Ensuring we're in the right environment
+[81.999063492] 2018-06-21 18:02:54,085 - INFO - launcher: Adding local bins/ folder to path
+[82.999229431] 2018-06-21 18:02:54,086 - INFO - launcher: Required checks passed.
+[83.998441696] 2018-06-21 18:02:54,087 - INFO - launcher: Optional checks passed.
+[83.998441696] 2018-06-21 18:02:54,087 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.7239651679992676] 2018-06-21 18:02:56,727 - WARNING - musicbot.config | In config.py::MainThread(14936), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[2.7249653339385986] 2018-06-21 18:02:56,728 - INFO - musicbot.config | In config.py::MainThread(14936), line 123 in run_checks: Using i18n: config/i18n/en.json
+[2.7269647121429443] 2018-06-21 18:02:56,730 - WARNING - musicbot.config | In config.py::MainThread(14936), line 293 in find_autoplaylist: No autoplaylist file found.
+[2.7299647331237793] 2018-06-21 18:02:56,733 - DEBUG - musicbot.json | In json.py::MainThread(14936), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[3.2819576263427734] 2018-06-21 18:02:57,285 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 227 in _setup_logging: Set logging level to INFO
+[3.2819576263427734] 2018-06-21 18:02:57,285 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 84 in __init__: Starting MusicBot 1.9.7
+[3.2829573154449463] 2018-06-21 18:02:57,286 - WARNING - musicbot.bot | In bot.py::MainThread(14936), line 87 in __init__: Autoplaylist is empty, disabling.
+[6.4809243679046631] 2018-06-21 18:03:00,484 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 1074 in on_ready: Connection established, ready to go.
+[6.4809243679046631] 2018-06-21 18:03:00,484 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 339 in _cache_app_info: Caching app info
+[6.7718770503997803] 2018-06-21 18:03:00,775 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[6.7738764286041260] 2018-06-21 18:03:00,777 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 905 in _scheck_server_permissions: Checking server permissions
+[6.7738764286041260] 2018-06-21 18:03:00,777 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[6.7738764286041260] 2018-06-21 18:03:00,777 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 913 in _scheck_configs: Validating config
+[6.7738764286041260] 2018-06-21 18:03:00,777 - DEBUG - musicbot.config | In config.py::MainThread(14936), line 212 in async_validate: Validating options...
+[6.7748782634735107] 2018-06-21 18:03:00,778 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 916 in _scheck_configs: Validating permissions config
+[6.7748782634735107] 2018-06-21 18:03:00,778 - DEBUG - musicbot.permissions | In permissions.py::MainThread(14936), line 64 in async_validate: Validating permissions...
+[6.7748782634735107] 2018-06-21 18:03:00,778 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 1091 in on_ready: Connected: 459265611353030676/PomBot#6795
+[6.7759051322937012] 2018-06-21 18:03:00,779 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 1099 in on_ready: Owner:     373754639067250709/Nutty Ninja#6053
+
+[6.7768905162811279] 2018-06-21 18:03:00,780 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 1102 in on_ready: Server List:
+[6.7778911590576172] 2018-06-21 18:03:00,781 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 1105 in on_ready:  - Depression and Memes 2.0
+[6.7778911590576172] 2018-06-21 18:03:00,781 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 1151 in on_ready: Not bound to any text channels
+[6.7788760662078857] 2018-06-21 18:03:00,782 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 1177 in on_ready: Not autojoining any voice channels
+[6.7799022197723389] 2018-06-21 18:03:00,783 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 266 in _join_startup_channels: Found resumable voice channel Depression and Memes 2.0/General
+[6.7808771133422852] 2018-06-21 18:03:00,784 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 272 in _join_startup_channels: Found owner in "General"
+[6.7818779945373535] 2018-06-21 18:03:00,785 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 281 in _join_startup_channels: Attempting to join Depression and Memes 2.0/General
+[6.7848777770996094] 2018-06-21 18:03:00,788 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 452 in get_voice_client: Connection attempt 1 to General
+[6.7848777770996094] 2018-06-21 18:03:00,788 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14936), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[6.7860910892486572] 2018-06-21 18:03:00,790 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14936), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[6.7868771553039551] 2018-06-21 18:03:00,790 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14936), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[7.0138742923736572] 2018-06-21 18:03:01,017 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 2926 in on_voice_state_update: Resumed voice connection to Depression and Memes 2.0/General
+[7.0148754119873047] 2018-06-21 18:03:01,018 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14936), line 2938 in on_voice_state_update: Voice state update for 459265611353030676/PomBot#6795 on Depression and Memes 2.0/General -> [RESUME, CONNECT]
+[7.0148754119873047] 2018-06-21 18:03:01,018 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14936), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[7.2478749752044678] 2018-06-21 18:03:01,251 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14936), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[7.6308672428131104] 2018-06-21 18:03:01,634 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14936), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[7.6308672428131104] 2018-06-21 18:03:01,634 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 478 in get_voice_client: Connected in 0.8s
+[7.6308672428131104] 2018-06-21 18:03:01,634 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 479 in get_voice_client: Connected to Depression and Memes 2.0/General
+[7.6328663825988770] 2018-06-21 18:03:01,636 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 849 in deserialize_queue: Deserializing queue for 456694044169338880
+[8.1099014282226562] 2018-06-21 18:03:02,113 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 570 in get_player: Created player via deserialization for server 456694044169338880 with 1 entries
+[8.1099014282226562] 2018-06-21 18:03:02,113 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 297 in _join_startup_channels: Joined Depression and Memes 2.0/General
+[8.1108622550964355] 2018-06-21 18:03:02,114 - VOICEDEBUG - musicbot.player | In player.py::MainThread(14936), line 373 in websocket_check: Starting websocket check loop for Depression and Memes 2.0
+[8.1118593215942383] 2018-06-21 18:03:02,115 - DEBUG - musicbot.entry | In entry.py::MainThread(14936), line 54 in get_ready_future: Created future for audio_cache\youtube-y6120QOlsfU-Darude_-_Sandstorm.webm
+[8.1118593215942383] 2018-06-21 18:03:02,115 - FFMPEG - musicbot.player | In player.py::MainThread(14936), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-y6120QOlsfU-Darude_-_Sandstorm.webm
+[8.1218607425689697] 2018-06-21 18:03:02,125 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[11.9608104228973389] 2018-06-21 18:03:05,964 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 2734 in on_message: 373754639067250709/Nutty Ninja#6053: !play for the sake of allah
+[13.2657940387725830] 2018-06-21 18:03:07,269 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 1517 in cmd_play: {'_type': 'url', 'url': 'ytsearch:for the sake of allah', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'for the sake of allah', 'webpage_url_basename': 'for the sake of allah', 'extractor_key': 'Generic'}
+[19.9068391323089600] 2018-06-21 18:03:13,910 - DEBUG - musicbot.entry | In entry.py::MainThread(14936), line 54 in get_ready_future: Created future for None
+[19.9098384380340576] 2018-06-21 18:03:13,913 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[19.9118399620056152] 2018-06-21 18:03:13,915 - INFO - musicbot.entry | In entry.py::MainThread(14936), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=A6sniKKTe4E
+[20.9578266143798828] 2018-06-21 18:03:14,961 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 2734 in on_message: 373754639067250709/Nutty Ninja#6053: !skip
+[23.1353430747985840] 2018-06-21 18:03:17,139 - INFO - musicbot.entry | In entry.py::MainThread(14936), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=A6sniKKTe4E
+[23.6493363380432129] 2018-06-21 18:03:17,653 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 2734 in on_message: 210331784599044097/Soup Ladle#8939: !skip
+[23.6633358001708984] 2018-06-21 18:03:17,667 - DEBUG - musicbot.entry | In entry.py::MainThread(14936), line 54 in get_ready_future: Created future for audio_cache\youtube-A6sniKKTe4E-For_the_sake_of_allah.webm
+[23.6633358001708984] 2018-06-21 18:03:17,667 - FFMPEG - musicbot.player | In player.py::MainThread(14936), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-A6sniKKTe4E-For_the_sake_of_allah.webm
+[23.7073361873626709] 2018-06-21 18:03:17,711 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[23.7093360424041748] 2018-06-21 18:03:17,713 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 825 in serialize_queue: Serializing queue for 456694044169338880
+[86.8032884597778320] 2018-06-21 18:04:20,807 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(14936), line 2938 in on_voice_state_update: Voice state update for 132476812935561216/Droidbot#5851 on Depression and Memes 2.0/General -> [LEAVE, DISCONNECT]
+[86.8032884597778320] 2018-06-21 18:04:20,807 - INFO - musicbot.bot | In bot.py::MainThread(14936), line 2949 in on_voice_state_update: 132476812935561216/Droidbot#5851 has left Depression and Memes 2.0/General
+[204.6899752616882324] 2018-06-21 18:06:18,693 - DEBUG - musicbot.bot | In bot.py::MainThread(14936), line 825 in serialize_queue: Serializing queue for 456694044169338880
